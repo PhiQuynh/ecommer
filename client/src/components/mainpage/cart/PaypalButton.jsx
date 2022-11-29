@@ -1,5 +1,4 @@
 import React from 'react';
-import PaypalExpressBtn from 'react-paypal-express-checkout';
  
 export default class MyApp extends React.Component {
     render() {
@@ -39,8 +38,6 @@ export default class MyApp extends React.Component {
         //   => https://developer.paypal.com/docs/classic/lifecycle/goingLive/
  
         // NB. You can also have many Paypal express checkout buttons on page, just pass in the correct amount and they will work!
-        return (
-            <PaypalExpressBtn env={env} client={client} currency={currency} total={total} onError={onError} onSuccess={onSuccess} onCancel={onCancel} />
-        );
+        return ;
     }
 }
