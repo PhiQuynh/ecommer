@@ -1,0 +1,21 @@
+.history{
+    overflow-x: hidden;
+}
+.history h2,.history h4{
+    text-align: center;
+    margin:20px;
+    text-transform: uppercase;
+}
+.history table{
+    margin:auto;
+    width:100%;
+    border-collapse: collapse;
+}
+.history td, .history tr{
+    text-align:center;
+    border: 2px solid #ccc;
+    padding :10px;
+}
+.history img{
+    width:100px;
+}

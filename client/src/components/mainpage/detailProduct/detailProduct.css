@@ -1,0 +1,42 @@
+.detail{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 50px;
+    font-size: 150%;
+}
+.detail img{
+    max-width: 400px;
+    width: 100%;
+    margin: 20px;
+    height:450px;
+    object-fit: cover;
+    display: block;
+}
+.detail__box{
+    max-width: 400px;
+    width: 100%;
+    margin: 20px;
+
+}
+.detail__box .detail__row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.detail__box h2{
+    text-transform: uppercase;
+    color: cornflowerblue;
+}
+.detail__box p{
+    opacity: 0,8;
+}
+.detail__box .cart{
+    background:#555;
+    color:white;
+    margin-top:30px ;
+    padding:10px 25px;
+    display: inline-block;
+    text-transform:uppercase; ;
+}

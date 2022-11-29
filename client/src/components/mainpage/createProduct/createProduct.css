@@ -1,0 +1,91 @@
+.create__product{
+    width:100%;
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    justify-content:space-around;
+}
+.create__product .upload{
+    max-width:450px;
+    height:500px;
+    width:100%;
+    border: 1px solid #ccc;
+    padding:15px;
+    margin:20px;
+    position:relative;
+}
+.create__product .upload input{
+    position:relative;
+    width:100%;
+    height:100%;
+    outline:none;
+}
+.create__product .upload input::before{
+    content:'+';
+    position:absolute;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    font-size:20rem;
+    margin:auto;
+    text-align:center;
+    color:red;
+    background-color:wheat;
+}
+.create__product .upload img{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background-color:wheat;
+    object-fit:cover;
+}
+.create__product .upload span{
+    position:absolute;
+    top:-10px;
+    right:-10px;
+    z-index: 3;
+    background-color:wheat;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    height:20px;
+    width: 20px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    color:brown;
+}
+.create__product form{
+    min-width: 200px;
+    max-width: 500px;
+    width: 100%;
+    margin:20px
+}
+.create__product form .row{
+    width:100%;
+    margin: 20px 0;
+}
+.create__product form .row input,
+.create__product form .row select,.create__product form .row textarea{
+    width:100%;
+    min-height: 40px;
+    padding:5px;
+}
+textarea{
+    resize:none;
+    min-height: 100px!important;
+}
+.create__product form button{
+    width:200px;
+    height:40px;
+    background:#555;
+    color:white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.loading {
+    position:absolute;
+    top:0;
+}

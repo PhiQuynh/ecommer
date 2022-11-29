@@ -1,0 +1,29 @@
+.Cart {
+    position: relative;
+    border: 1px solid #ccc;
+}
+.Cart .number{
+    display: flex;
+    align-items: center;   
+}
+.Cart .number span {
+    color: red;
+    padding:0 20px;
+
+}
+.Cart .number button{
+    height:40px;
+    width:40px;
+    border : 1px solid #555;
+}
+.Cart .delete {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    color: red;
+}
+.total{
+    display:flex;
+    justify-content:space-between ;
+    align-items: center;
+}

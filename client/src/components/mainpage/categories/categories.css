@@ -1,0 +1,52 @@
+.category{
+    max-width:700px;
+    display:flex;
+    margin: 30px auto;
+    justify-content:space-around;
+    flex-wrap:wrap;
+}
+.category form{
+    width:290px;
+    margin-bottom:20px;
+
+}
+.category input, .category button{
+    display:block;
+    font-weight:bolder;
+    text-transform: uppercase;
+    margin-left:10px;
+    border:none;
+    outline:none;
+    border-bottom: 2px solid red;
+}
+.category label{
+    display:flex;
+    align-items:center;
+
+}
+.category button{
+    width:70px;
+    background-color:red;
+    color:white;
+    display:block;
+    align-items:center;
+    justify-content:center;
+}
+.category form button{
+    margin-top:20px;
+
+}
+.category .row{
+    display:flex;
+    min-width:290px;
+    align-items:center;
+    justify-content:space-around;
+    margin:10px 0;
+}
+.category .row div{
+    display:flex;
+
+}
+.category .row p{
+    width:20px;
+}

@@ -1,0 +1,75 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding:0;
+}
+body{
+  overflow-x: hidden;
+}
+.App{
+  max-width:75%;
+  margin:0 auto;
+  min-height: 100vh;
+  padding: 0 20px;
+  box-shadow : 0 0 30px #ccc
+}
+a{text-decoration:none;}
+ul{
+  list-style-type: none;
+}
+button{
+  border:none;
+  outline:none;
+  background: transparent;
+  cursor: pointer;
+}
+@import url("./components/headers/Header.css");
+@import url("./components/mainpage/products/product.css");
+@import url("./components/mainpage/detailProduct/detailProduct.css");
+@import url("./components/mainpage/loading/loading.css");
+@import url("./components/mainpage/auth/auth.css");
+@import url("./components/mainpage/cart/Cart.css");
+@import url("./components/mainpage/history/history.css");
+@import url("./components/mainpage/categories/categories.css");
+@import url("./components/mainpage/createProduct/createProduct.css");
+
+@media (max-width: 768px){
+  header ul{
+    position:fixed;
+    top:0;
+    left:-100%;
+    width:100%;
+    height:100vh;
+    background-color:white;
+    align-items:center;
+    flex-direction:column;
+    justify-content:space-around;
+    opacity: 0.98;
+    z-index: 3;
+    transition:all ease 0.5s;
+  }
+  header .menu{
+    display:block;
+    cursor: pointer;
+  } 
+  header .cart{
+    display:none;
+  }
+  header {
+    justify-content:space-around;
+  }
+  header .logo{
+    flex:none;
+  }
+}
+@media (max-width: 698px){
+  .filter .sort{
+    margin-top:20px;
+  }
+}
+@media (max-width: 698px){
+  .filter input, .filter select{
+    width:300px;
+    margin :5px;
+  }
+}
